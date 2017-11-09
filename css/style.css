@@ -1,0 +1,44 @@
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* 1. section1  --------------------------------------------------------------------------*/
+
+.section1{
+    width: 100%;
+    background-image: url(../img/mainImage.png);
+    background-position: center center;
+}
+
+.section1::after {
+     display: block;
+     content: "";
+     clear: both;
+   }
+
+.floatRight{
+    float: right;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.decorationNone{
+     text-decoration: none;
+}
+
+.menuButtons li{
+    margin-right: 30px;
+}
+
+.mainMenu{
+    margin-bottom: 500px;
+}
+
+.mainButton{
+    margin-bottom: 400px;
+    margin: 0 auto;
+}
