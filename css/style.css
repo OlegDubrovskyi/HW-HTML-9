@@ -2,7 +2,6 @@
 .wrapper{
     width: 1170px;
     margin: 0 auto;
-    /*overflow: hidden;*/
 }
 
 .wrapper::after {
@@ -14,6 +13,15 @@
 .textCenter{
     text-align: center;
 }
+
+.textRight{
+    text-align: right;
+}
+
+.basket{
+    margin-right: 0px!important;
+}
+
 
 /* 1. section1  --------------------------------------------------------------------------*/
 
@@ -61,10 +69,6 @@
     box-sizing: border-box;
    }
 
-.menuButtons li{
-    margin: 0 auto;
-}
-
 .menuButtons>ul>li>a{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -90,8 +94,8 @@
     background-color: #ffffff;
 }
 
-.btn a{
-    color: #fb968f!important;
+.wrapper .btn a {
+    color: #fb968f;
 }
 
 .mainButton a{
@@ -266,10 +270,11 @@ span{
 
 .section5{
     width: 100%;
-    background-color: #f85a50;
     padding-top: 102px;
     padding-bottom: 98px;
+    background-image: url(../img/section5image.png);
 }
+
 
 .section5Text{
     font-size: 28px;
@@ -303,7 +308,7 @@ span{
     margin-bottom: 45px;
 }
 
-/* 6. section6  --------------------------------------------------------------------------*/
+/* 7. section7  --------------------------------------------------------------------------*/
 
 
 .section7{
@@ -320,7 +325,8 @@ span{
 }
 
 .left{
-    width: 50%;
+    width: 46%;
+    margin-right: 40px;
 }
 
 .right{
@@ -336,5 +342,10 @@ span{
     font-family: 'Poppins', sans-serif;
     color: #262626;
     line-height: 30px;
-    margin-left: 2px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.wrapper .left i{
+    margin-right: : 4px;
 }
